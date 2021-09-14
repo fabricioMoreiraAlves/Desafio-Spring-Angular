@@ -1,0 +1,7 @@
+GET /produtos - Lista todos os produtos
+GET /produtos/{id} - Busca um produto por id
+POST /produtos - Cria um novo produto
+PUT /produtos/{id} - Edita um produto
+DELETE /produtos/{id} - Deleta um produto
+GET /city - Lista todas as cidades
+
