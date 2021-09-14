@@ -1,0 +1,28 @@
+<div class="col-md-4 offset-md-3">
+    <h3>Editar produto</h3>
+    <form (ngSubmit) = "onSubmit()">
+        <div class="form-group">
+            <label>Codigo</label>
+            <input type="text" class="form-control" id="codigo" [(ngModel)]="produto.cod" name="codigo">
+        </div>
+        <div class="form-group">
+            <label>Nome</label>
+            <input type="text" class="form-control" id="nome" [(ngModel)]="produto.nome" name="nome">
+        </div>
+        <div class="form-group">
+            <label>Valor</label>
+            <input type="text" class="form-control" id="valor" [(ngModel)]="produto.valor" name="valor">
+        </div>
+        <div class="form-group">
+            <label>Estoque</label>
+            <input type="text" class="form-control" id="estoque" [(ngModel)]="produto.estoque" name="estoque">
+        </div>
+        <div class="form-group">
+            <label>Cidade</label>
+            <input type="text" class="form-control" id="cidade" [(ngModel)]="produto.cidade" name="cidade">
+        </div>
+    
+        <button class="btn btn-success" type="submit">Cadastrar</button>
+    </form>
+</div>
+    
